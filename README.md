@@ -65,7 +65,7 @@ python test.py
 ```
 
 ## License  
-This project is licensed under the Apache-2.0 license - see LICENSE.md file for details.
+This project is licensed under the Apache-2.0 license - see **LICENSE** for details.
 
 ## Contact us  
 b22070022@s.upc.edu.cn 
