@@ -56,7 +56,7 @@ python train.py \
 ```
 Here, `--n-slice` specifies the number of labeled slices used for training.
 
-## Testing
+## Quick test
 
 We provide pretrained checkpoints [here](https://drive.google.com/drive/folders/1luf_PZJ73oRP6eJUZTHXvV7FDDC-bZR6?usp=sharing). To evaluate the model and visualize the results, download the pretrained checkpoints and place them in `./ckpts`, then run:
 
