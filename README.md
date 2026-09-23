@@ -1,5 +1,5 @@
 # Cross Teaching between 3-D and 2-D Networks for 3-D Seismic Fault Detection  
-This repository contains the code and trained models for the manuscript "**3-D Seismic Fault Detection From Biased Sparse Annotations via Dynamic Cross-Teaching**".  
+This repository contains the source code and trained models for TTCT.  
 
 ##  Dataset  
 The training and test datasets used in this work can be downloaded [here](https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8).
