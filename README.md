@@ -1,9 +1,5 @@
 
-# 3-D Seismic Fault Detection From Biased Sparse Annotations via Dynamic Cross-Teaching  
-This repository contains the code and trained models for the manuscript "**3-D Seismic Fault Detection From Biased Sparse Annotations via Dynamic Cross-Teaching**".  
-
-**ABSTRACT:**
-Data-driven approaches to 3-D seismic fault detection typically rely on large-scale, accurately annotated datasets. However, voxel-wise fault annotation is labor-intensive and highly subjective, which makes high-quality 3-D labels difficult to obtain in practice. Training survey-specific models from sparse slice annotations provides a practical alternative, yet learning a 3-D network directly from such supervision remains challenging because the supervision is limited and the annotations are often biased. To address this issue, we propose TTCT, a cross-teaching framework between 2-D and 3-D networks for 3-D seismic fault detection from sparse slice annotations with annotation bias. TTCT exploits the complementary strengths of 2-D and 3-D networks through dynamic cross-teaching, thereby enabling robust learning under sparse supervision while reducing dependence on annotated slices. In addition, we introduce an annotation bias-aware loss to model sparse annotation confidence by approximating expert attention, thereby improving robustness to annotation bias. Experiments on three public datasets show that TTCT outperforms strong semi-supervised and weakly supervised baselines with fewer annotated slices and can recover some true but unlabeled faults. Notably, TTCT achieves a Dice similarity coefficient (DSC) of 82.37\% with only 6.25\% (1/16) annotated slices per sample, close to the 83.72\% achieved by full supervision. Moreover, the DSC decreases by only 0.73\% when annotation bias affects 64.4\% of the annotated slices.  
+This repository contains the code and trained models for TTCT.  
 
 ##  Dataset  
 The training and test datasets used in this work can be downloaded [here](https://drive.google.com/drive/folders/1FcykAxpqiy2NpLP1icdatrrSQgLRXLP8).
